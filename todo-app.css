@@ -1,0 +1,38 @@
+.btn-group .btn {
+    background-color: #f8f9fa; 
+    color: #6c757d;
+    border: none; 
+  }
+
+  .btn-group .btn.active,
+  .btn-group .btn:hover,
+  .btn-group .btn:focus {
+    background-color: #007bff; 
+    color: white; 
+  }
+
+  .btn-group .btn .badge {
+    background-color: white; 
+    color: #007bff;
+  }
+
+  .btn-group .btn:not(:last-child) {
+    border-right: none;
+  }
+
+  .btn-group .btn:focus {
+    box-shadow: none;
+  }
+
+  .btn-group .btn[data-filter="all"] {
+    background-color: #007bff;
+    color: white;
+  }
+
+  .btn-group .btn[data-filter="all"] {
+    background-color: #f8f9fa;
+    color: #6c757d;
+  }
+
+
+  

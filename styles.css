@@ -1,0 +1,25 @@
+.container {
+    width: 80%;
+    margin: auto;
+    max-width: 1200px; /* Set a maximum width for larger screens */
+    padding: 0 15px; /* Add some padding for all sizes */
+}
+
+@media only screen and (max-width: 1024px) {
+    .container {
+        width: 85%; /* Slightly wider for medium-sized screens */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 90%; /* Even wider for small tablets */
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%; /* Full width for mobile devices */
+        padding: 0 20px; /* Increase padding for smaller screens */
+    }
+}
